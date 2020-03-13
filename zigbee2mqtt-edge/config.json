@@ -49,7 +49,7 @@
     "whitelist": [],
     "queue": {},
     "experimental": {
-      "transmit_power": 0
+      "transmit_power": 1
     },
     "socat": {
       "enabled": false,
