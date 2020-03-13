@@ -118,7 +118,7 @@
       "simultaneously": "int?"
     },
     "experimental": {
-      "transmit_power": "int(-22,19)?"
+      "transmit_power": "int(0,19)?"
     },
     "socat": {
       "enabled": "bool?",
