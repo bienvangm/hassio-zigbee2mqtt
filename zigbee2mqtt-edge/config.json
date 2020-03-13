@@ -4,7 +4,7 @@
   "slug": "zigbee2mqtt_edge",
   "description": "Development build of the zigbee2mqtt add-on",
   "auto_uart": true,
-  "url": "https://github.com/danielwelch/hassio-zigbee2mqtt",
+  "url": "https://github.com/bienvangm/hassio-zigbee2mqtt",
   "startup": "before",
   "arch": [
     "aarch64",
@@ -48,7 +48,9 @@
     "ban": [],
     "whitelist": [],
     "queue": {},
-    "experimental": {},
+    "experimental": {
+      "transmit_power": 0
+    },
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/dev/ttyZ2M,mode=777",
