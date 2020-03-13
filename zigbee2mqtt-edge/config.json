@@ -48,9 +48,6 @@
     "ban": [],
     "whitelist": [],
     "queue": {},
-    "experimental": {
-      "transmit_power": 1
-    },
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/dev/ttyZ2M,mode=777",
@@ -118,9 +115,6 @@
     "queue": {
       "delay": "int?",
       "simultaneously": "int?"
-    },
-    "experimental": {
-      "transmit_power": "int(-22,19)?"
     },
     "socat": {
       "enabled": "bool?",
